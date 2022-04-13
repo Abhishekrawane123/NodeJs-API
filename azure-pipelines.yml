@@ -30,3 +30,5 @@ steps:
 - task: NodeTool@0 
   inputs:
     versionSpec: '12.x' 
+
+- script: npm install --only=dev
